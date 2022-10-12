@@ -1,0 +1,66 @@
+.barcode{
+    display: flex;
+    justify-content: center;
+}
+.barcode-form{
+    width: 50%;
+}
+.barcode-form .barcode-form-title{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+}
+.barcode-form .input-group{
+    margin-bottom: 20px;
+}
+.barcode-form .input-group label{
+    font-size: 22px;
+    font-weight: 500;
+    color: #151515;
+}
+.barcode-form .input-group .input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #151515;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.barcode-form ::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+}
+.barcode-form .btn-submit,
+.barcode-success .btn-print{
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    background-color: #003366;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+}
+.barcode-form .btn-submit:hover,
+.barcode-success .btn-print:hover{
+    background-color: #225588;
+}
+
+.barcode-success{
+    width: 50%;
+    margin-left: 50px;
+}
+.barcode-success .btn-print{
+    display: block;
+    width: 100px;
+}
